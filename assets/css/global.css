@@ -4,14 +4,25 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-image: url('https://st2.depositphotos.com/3213441/12022/v/450/depositphotos_120226584-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: initial;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: transparent;
+}
+
+h1 {
+    color: #fff;
+    background-color: black;
+    font-weight:bold;
+    font-size:3rem;
+    text-align:center;
 }
 
 @media screen and (min-width: 992px) {
